@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './app.css';
-// import { Calendar, DatePicker } from 'react-persian-datepicker';
+import { Calendar, DatePicker } from 'react-persian-datepicker';
 
 const Counter = ({
   increment,
@@ -21,9 +21,9 @@ const Counter = ({
     {' '}
     <button onClick={() => incrementAsync()}>Increment async</button>
     <hr />
-    {/* <Calendar /> */}
+    <Calendar />
     <hr />
-    {/* <DatePicker /> */}
+    <DatePicker />
   </p>
 );
 
